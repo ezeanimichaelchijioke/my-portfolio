@@ -3,8 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Israel Ijejeme</title>
+    <title>Israel Ijejeme | Full Stack Developer</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
     <section id="hero">
@@ -15,8 +16,9 @@
             <div class="navbar">
                 <ul>
                     <li><a href="#hero">Home</a></li>
-                    <li><a href="">About</a></li>
-                    <li><a href="">Projects</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
                 </ul>
             </div>
         </div>
@@ -25,74 +27,163 @@
                 <h1>Hi! I'm <b class="blue-text">Israel Ijejeme</b></h1>
                 <h2>a FullStack Web Developer</h2>
                 <div class="ctas">
-                    <a href=""><h3>Download CV</h3></a>
-                    <a href="github.com/israel-ijejeme"><img src="img/socials/download (7).png" alt=""></a>
-                    <a href="linkedin.com"><img src="img/socials/download (8).png" alt=""></a>
+                    <a href="assets/resume/Israel-Ijejeme-tech-resume.docx" class="cv-btn" download><i class="fas fa-download"></i> Download CV</a>
+                    <div class="social-links">
+                        <a href="https://github.com/israel-ijejeme" target="_blank"><i class="fab fa-github"></i></a>
+                        <a href="https://linkedin.com" target="_blank"><i class="fab fa-linkedin"></i></a>
+                        <a href="mailto:realpeepmantis1@gmail.com"><i class="fas fa-envelope"></i></a>
+                    </div>
                 </div>
             </div>
             <div class="hero-img">
-                <img src="img/dragon-ball-8280091_1280.jpg" alt="">
+                <img src="img/dragon-ball-8280091_1280.jpg" alt="Profile picture">
             </div>
         </div>
     </section>
-    <section class="about">
+
+    <section id="about" class="about">
         <div class="technologies">
-            <h1>My Vocabulary</h1>
+            <h1>My Teck Skills</h1>
             <div class="tech-icons">
-                <div class="icons1">
-                    <img src="img/techs/download.png" alt="">
-                    <img src="img/techs/download (1).png" alt="">
-                    <img src="img/techs/download (2).png" alt="">
-                    <img src="img/techs/download (3).png" alt="">
+                <div class="tech-item">
+                    <img src="img/techs/download.png" alt="HTML5">
+                    <span>HTML5</span>
                 </div>
-                <div class="icons2">
-                    <img src="img/techs/download (4).png" alt="">
-                    <img src="img/techs/download (5).png" alt="">
-                    <img src="img/techs/download (6).png" alt="">
-                    <img src="img/techs/download (3).jpg" alt="">
+                <div class="tech-item">
+                    <img src="img/techs/download (1).png" alt="CSS3">
+                    <span>CSS3</span>
+                </div>
+                <div class="tech-item">
+                    <img src="img/techs/download (2).png" alt="JavaScript">
+                    <span>JavaScript</span>
+                </div>
+                <div class="tech-item">
+                    <img src="img/techs/download (3).png" alt="React">
+                    <span>React</span>
+                </div>
+                <div class="tech-item">
+                    <img src="img/techs/download (4).png" alt="Node.js">
+                    <span>Node.js</span>
+                </div>
+                <div class="tech-item">
+                    <img src="img/techs/download (5).png" alt="MongoDB">
+                    <span>MongoDB</span>
+                </div>
+                <div class="tech-item">
+                    <img src="img/techs/download (6).png" alt="Python">
+                    <span>Python</span>
+                </div>
+                <div class="tech-item">
+                    <img src="img/techs/download (3).jpg" alt="Git">
+                    <span>Git</span>
                 </div>
             </div>
         </div>
+        
         <div class="info">
             <h1>More About Me</h1>
             <div class="info-cards">
-                <div class="nationality-card">
-                    <img src="img/dragon-ball-8280091_1280.jpg" alt="">
+                <div class="info-card">
+                    <div class="icon-container">
+                        <i class="fa-solid fa-location-dot"></i>
+                    </div>
                     <h2>Apo, Abuja, Nigeria.</h2>
                 </div>
-                <div class="nationality-card">
-                    <img src="img/dragon-ball-8280091_1280.jpg" alt="">
+                <div class="info-card">
+                    <div class="icon-container">
+                        <i class="fa-solid fa-graduation-cap"></i>
+                    </div>
                     <h2>Veritas University. Bsc.Software Engineering</h2>
                 </div>
-                <div class="nationality-card">
-                    <img src="img/dragon-ball-8280091_1280.jpg" alt="">
-                    <h2>Basketball, Coding, Anime</h2>
+                <div class="info-card">
+                    <div class="icon-container">
+                        <i class="fa-solid fa-bolt"></i>
+                    </div>
+                    <h2>Freelance Gigs and Partime Jobs</h2>
                 </div>
             </div>
         </div>
     </section>
-    <section class="projects">
+
+    <section id="projects" class="projects">
         <h1>My Projects</h1>
-        <div class="project">
-            <a href="#">
-                <img src="img/projects/c706d29f66de86824a0efa65c15fc573.png" alt="">
-            </a>
+        <div class="projects-container">
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="img/projects/2025-03-29-01-44-14-https-nacomessummit-com-ng-admin-dashboard-php.png" alt="E-commerce Website">
+                    <div class="project-overlay">
+                        <h3>Event Ticket Admin Dashboard</h3>
+                        <p>Event ticket registration admin dashboard built with HTML, CSS, JS, PHP and MySQL</p>
+                        <div class="project-links">
+                            <a href="#" target="_blank"><i class="fab fa-github"></i> Source Code</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
-    <section class="contact">
+
+    <section id="contact" class="contact">
         <h1>Send Me An Email</h1>
         <div class="contact-form">
             <form action="" method="post">
                 <div class="names">
-                    <input type="text" placeholder="First Name: ">
-                    <input type="text" placeholder="Last Name: ">
+                    <div class="input-group">
+                        <label for="firstname">First Name</label>
+                        <input type="text" id="firstname" placeholder="First Name">
+                    </div>
+                    <div class="input-group">
+                        <label for="lastname">Last Name</label>
+                        <input type="text" id="lastname" placeholder="Last Name">
+                    </div>
                 </div>
-                <input type="text" placeholder="Email: ">
-                <input class="msg" type="text" placeholder="Messasge: ">
-                <input type="submit" class="submit-btn">
+                <div class="input-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" placeholder="Your Email">
+                </div>
+                <div class="input-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" placeholder="Your Message"></textarea>
+                </div>
+                <button type="submit" class="submit-btn">Send Message <i class="fas fa-paper-plane"></i></button>
             </form>
         </div>
     </section>
-    <section class="footer"></section>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-logo">
+                <h2>Israel Ijejeme</h2>
+                <p>Full Stack Web Developer</p>
+            </div>
+            <div class="footer-links">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="#hero">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-contact">
+                <h3>Contact Info</h3>
+                <p><i class="fas fa-envelope"></i> realpeepmantis1@gmail.com</p>
+                <p><i class="fas fa-phone"></i> +234 913 571 0434</p>
+                <p><i class="fas fa-map-marker-alt"></i> Apo, Abuja, Nigeria</p>
+            </div>
+            <div class="footer-social">
+                <h3>Connect With Me</h3>
+                <div class="social-icons">
+                    <a href="https://github.com/israel-ijejeme" target="_blank"><i class="fab fa-github"></i></a>
+                    <a href="https://linkedin.com" target="_blank"><i class="fab fa-linkedin"></i></a>
+                    <a href="#" target="_blank"><i class="fab fa-twitter"></i></a>
+                    <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>&copy; 2025 Israel Ijejeme. All Rights Reserved.</p>
+        </div>
+    </footer>
 </body>
 </html>
