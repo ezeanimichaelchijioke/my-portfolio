@@ -202,13 +202,15 @@ a:hover {
     flex: 1;
     display: flex;
     justify-content: flex-end;
+    align-items: center;
 }
 
 .hero-img img {
-    width: 300px;
-    height: 300px;
-    object-fit: cover;
-    border-radius: 50%;
+    width: 300px !important;
+    height: 300px !important;
+    object-fit: cover !important;
+    border-radius: 50% !important;
+    aspect-ratio: 1/1 !important;
     border: 3px solid var(--hover-buttons);
     box-shadow: var(--box-shadow);
     animation: pulse 3s ease-in-out infinite;
@@ -666,8 +668,9 @@ footer {
     }
     
     .hero-img img {
-        width: 250px;
-        height: 250px;
+        width: 250px !important;
+        height: 250px !important;
+        aspect-ratio: 1/1 !important;
     }
     
     .names {
@@ -763,7 +766,8 @@ footer {
     }
     
     .hero-img img {
-        width: 200px;
-        height: 200px;
+        width: 200px !important;
+        height: 200px !important;
+        aspect-ratio: 1/1 !important;
     }
 }
